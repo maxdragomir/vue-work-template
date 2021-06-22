@@ -1,0 +1,34 @@
+/*! Animation */
+/*======================================================================================================================*/
+
+
+// Btn main
+@keyframes flicker {
+  20%, 100% {
+    transform: translate3d(150%, 0, 0) skew(-50deg);
+  }
+}
+
+// Levitation
+@keyframes levitation-x {
+  50% {
+    transform: translate3d(10%, 0, 0);
+  }
+}
+@keyframes levitation-y {
+  50% {
+    transform: translate3d(0, 10%, 0);
+  }
+}
+
+
+@keyframes scaleLight {
+  0% {
+    opacity: 0;
+    transform: translate3d(0,0,0) scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0,0,0) scale(1);
+  }
+}
